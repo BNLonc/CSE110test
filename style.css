@@ -5,19 +5,19 @@ body {
 }
 
 #s1 {
-    background-image: url("blue.png"), url("waves.png");
+    background-image: url("img/blue.png"), url("img/waves.png");
     /*Change the hard-coded value on the right to scale the pattern to look nice*/
     background-size: auto 80%;
 }
 
 #d1 {
     /*Uncomment or comment to give the entry the same colour as the header*/
-    /*background-image: url("blue.png");*/
+    /*background-image: url("img/blue.png");*/
 }
 
 #s2 {
     /*Change the hard-coded value on the right to scale the pattern to look nice*/
-    background-image: url("red.png"), url("angles.png");
+    background-image: url("img/red.png"), url("img/angles.png");
     background-size: auto 100%;
 }
 
@@ -44,8 +44,17 @@ details {
     height:50px;
     border-radius:50px;
     background-color: #a6fcff;
-    
-    text-align: center;
-    line-height: 50px;
-    font-size: 30px;
+    border: 2px solid black;
+    background-image: url("img/plus.png");
+}
+
+#userEntryContainer {
+    padding-top: 10px;
+}
+
+form {
+    border: 2px solid black;
+    width: 50%;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
