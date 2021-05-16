@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5cm;
+}
+
+#s1 {
+    background-image: url("blue.png"), url("waves.png");
+    /*Change the hard-coded value on the right to scale the pattern to look nice*/
+    background-size: auto 80%;
+}
+
+#d1 {
+    /*Uncomment or comment to give the entry the same colour as the header*/
+    /*background-image: url("blue.png");*/
+}
+
+#s2 {
+    /*Change the hard-coded value on the right to scale the pattern to look nice*/
+    background-image: url("red.png"), url("angles.png");
+    background-size: auto 100%;
+}
+
+#d2 {
+    /*Uncomment or comment to give the entry the same colour as the header*/
+    /*background-image: url("red.png");*/
+}
+
+.container {
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+details {
+    border-color: black;
+    border: solid 1px;
+}
+
+#addButton {
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    background-color: #a6fcff;
+    
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
